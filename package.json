@@ -1,0 +1,46 @@
+{
+  "name": "merked",
+  "version": "1.0.0",
+  "description": "a directed acyclic graph using merkle trees",
+  "main": "index.js",
+  "bin": {
+    "merk": "bin/merk.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test --exit",
+    "generate-docs": "mkdir -p ./docs && rm -r ./docs && jsdoc index.js lib -r -c .jsdoc.json --verbose -d ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/161chihuahuas/merked.git"
+  },
+  "keywords": [
+    "merkle",
+    "dag",
+    "tree",
+    "ipfs",
+    "kademlia",
+    "storj",
+    "dusk"
+  ],
+  "author": "Lily Anne <161chihuahuas@disroot.org>",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/161chihuahuas/merked/issues"
+  },
+  "homepage": "https://github.com/161chihuahuas/merked#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "clean-jsdoc-theme": "^4.3.0",
+    "jsdoc": "^4.0.4",
+    "mocha": "^11.5.0",
+    "sinon": "^20.0.0"
+  },
+  "dependencies": {
+    "node-split": "^1.0.1"
+  }
+}
