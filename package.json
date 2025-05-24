@@ -1,5 +1,5 @@
 {
-  "name": "merked",
+  "name": "@tacticalchihuahua/merked",
   "version": "1.0.0",
   "description": "a directed acyclic graph using merkle trees",
   "main": "index.js",
