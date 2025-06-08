@@ -1,4 +1,4 @@
-# merked *shred data into a [merkle graph](https://en.wikipedia.org/wiki/Merkle_tree)*
+# 🍃 merked ~ *a [merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) calculator*
 
 ```
 npm install @tacticalchihuahua/merked
