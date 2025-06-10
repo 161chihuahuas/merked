@@ -1,13 +1,13 @@
 # 🍃 merked ~ *a [merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) calculator*
 
 ```
-npm install @tacticalchihuahua/merked
+npm install @yipyap/merked
 ```
 
 ### usage: programmatic
 
 ```js
-const { dag, tree } = require('@tacticalchihuahua/merked');
+const { dag, tree } = require('@yipyap/merked');
 const merkleGraph = dag.DAG.fromBuffer(
     Buffer.from([/* ... */]), // any data you like
     1024, // slice size in bytes
@@ -31,5 +31,5 @@ cat myfile.txt | merk - | jq
 
 ### copying
 
-anti-copyright 2025, tactical chihuahua  
+anti-copyright 2025, chihuahua.rodeo  
 licensed lgpl-3.0

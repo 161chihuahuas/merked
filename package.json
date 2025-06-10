@@ -1,5 +1,5 @@
 {
-  "name": "@tacticalchihuahua/merked",
+  "name": "@yipyap/merked",
   "version": "1.0.1",
   "description": "a directed acyclic graph using merkle trees",
   "main": "index.js",
@@ -39,8 +39,5 @@
     "jsdoc": "^4.0.4",
     "mocha": "^11.5.0",
     "sinon": "^20.0.0"
-  },
-  "dependencies": {
-    "node-split": "^1.0.1"
   }
 }
