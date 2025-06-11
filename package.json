@@ -1,5 +1,5 @@
 {
-  "name": "@yipyap/merked",
+  "name": "@yipsec/merked",
   "version": "1.0.1",
   "description": "a directed acyclic graph using merkle trees",
   "main": "index.js",

@@ -1,13 +1,13 @@
 # 🍃 merked ~ *a [merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) calculator*
 
 ```
-npm install @yipyap/merked
+npm install @yipsec/merked
 ```
 
 ### usage: programmatic
 
 ```js
-const { dag, tree } = require('@yipyap/merked');
+const { dag, tree } = require('@yipsec/merked');
 const merkleGraph = dag.DAG.fromBuffer(
     Buffer.from([/* ... */]), // any data you like
     1024, // slice size in bytes
