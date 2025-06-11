@@ -31,5 +31,5 @@ cat myfile.txt | merk - | jq
 
 ### copying
 
-anti-copyright 2025, chihuahua.rodeo  
+anti-copyright 2025, yipsec  
 licensed lgpl-3.0
